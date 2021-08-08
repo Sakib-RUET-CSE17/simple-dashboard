@@ -13,17 +13,17 @@ import Image from 'next/image'
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: theme.palette.common.white,
+    borderRadius: '20px',
+    backgroundColor: '#FFFFFF',
     '&:hover': {
         backgroundColor: alpha(theme.palette.common.white, 0.25),
     },
     marginRight: 'auto',
     marginLeft: 0,
-    width: '100%',
+    width: 'auto',
     [theme.breakpoints.up('sm')]: {
         marginLeft: theme.spacing(3),
-        width: 'auto',
+        width: '400px',
     },
 }));
 
