@@ -21,6 +21,7 @@ In the project, there are:
 ## Tools Used
 
 React, Next.js, Material-UI v5, TypeScript
+This project includes responsive design for desktop and mobile.
 
 ## Live Site
 Live Site Link: https://simple-dashboard-beryl.vercel.app/
